@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            width: 400px;
+            margin: 30px auto;
+        }
+        
+        legend {
+            color: red;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        
+        nav {
+            border: 1px solid #000;
+            height: 40px;
+            /* background-color: chartreuse; */
+        }
+        
+        div {
+            float: left;
+            position: relative;
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        #a {
+            background-color: gray;
+        }
+        
+        #b {
+            background-color: mediumpurple;
+        }
+        
+        #c {
+            background-color: hotpink;
+        }
+        
+        #d {
+            background-color: lightskyblue;
+        }
+        
+        #e {
+            background-color: gold;
+        }
+        
+        #f {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>网页换肤</legend>
+        <nav>
+            <div id="a"></div>
+            <div id="b"></div>
+            <div id="c"></div>
+            <div id="d"></div>
+            <div id="e"></div>
+            <div id="f"></div>
+        </nav>
+        <footer></footer>
+    </fieldset>
+</body>
+<script>
+    var div = document.getElementsByTagName("div");
+    div.onclick = function () {
+        
+    }
+</script>
+
+</html>
